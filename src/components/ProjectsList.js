@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 // import VideoJS from './VideoJS.js'
 import { useNavigate } from 'react-router-dom';
 require('bootstrap')

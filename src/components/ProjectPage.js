@@ -1,6 +1,3 @@
-import react from "react";
-import reactDom from "react-dom";
-import VideoJS from "./VideoJS";
 import { useParams } from "react-router-dom";
 import { getProject } from "../data";
 
