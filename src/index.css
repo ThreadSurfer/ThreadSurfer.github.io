@@ -43,10 +43,9 @@
     width: 80%;
     margin: 0 auto;
     display: relative;
-    background-color: rgba(232, 139, 30, 0.3);
+    background-color: rgba(232, 139, 30, 0.3) !important;
     color: black;
     font-size: 30px;
-    min-width: 10em;
     border-radius: 30px;
     text-align: center;
     overflow: hidden;
