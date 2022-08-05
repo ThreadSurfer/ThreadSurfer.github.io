@@ -26,6 +26,7 @@
     font-size: 25px;
     width: 90%;
     font-family: "EB Garamond";
+    margin: 5em, 0, 2em, 0;
   }
 
   .project {
@@ -69,6 +70,7 @@
   }
 
   #bio {
+    margin: 0 auto;
     font-size: 30px;
     width: 50%;
   }
@@ -240,7 +242,6 @@ code {
   display: grid;
   position: relative;
   color: black;
-  margin: 0 auto;
   justify-content: center;
   text-align: center;
   grid-auto-rows: 100px;
