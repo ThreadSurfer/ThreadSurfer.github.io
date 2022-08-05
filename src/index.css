@@ -1,4 +1,5 @@
 @import url('https://fonts.google.com/specimen/Work+Sans#standard-styles');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&display=swap');
 
 @media screen and (min-width: 400px) {
   html {
@@ -21,6 +22,12 @@
     clear: left;
   }
 
+  #bio {
+    font-size: 25px;
+    width: 90%;
+    font-family: "EB Garamond";
+  }
+
   .project {
     width: 200px;
     margin: 0 auto;
@@ -37,19 +44,6 @@
     position: relative;
     box-shadow: 0 4px 50px 1px black;
     border-radius: 10px;
-  }
-
-  #bio {
-    width: 80%;
-    margin: 0 auto;
-    display: relative;
-    background-color: rgba(232, 139, 30, 0.3) !important;
-    color: black;
-    font-size: 30px;
-    border-radius: 30px;
-    text-align: center;
-    overflow: hidden;
-    margin-bottom: 3em;
   }
 }
 
@@ -75,6 +69,7 @@
   }
 
   #bio {
+    font-size: 30px;
     width: 50%;
   }
 
@@ -258,6 +253,18 @@ code {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+#bio {
+  margin: 0 auto;
+  display: relative;
+  background-color: rgba(232, 139, 30, 0.3);
+  color: rgba(32, 25, 29, 0.91);
+  min-width: 10em;
+  border-radius: 30px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 3em;
 }
 
 #selfie-container {
