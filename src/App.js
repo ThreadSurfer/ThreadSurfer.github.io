@@ -1,5 +1,5 @@
 import './App.css';
-// import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Banner from './components/Banner';
 import Project from './components/Project';
 import Bio from './components/Bio';

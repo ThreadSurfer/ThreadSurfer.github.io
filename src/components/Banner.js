@@ -8,7 +8,7 @@ const [infoVisible, setInfoVisible] = useState('hidden')
     <>
     <div id="header" className='container-fluid'>
       <div className='shiner'>
-        <h1 onClick={() => infoVisible === 'hidden' ? setInfoVisible('visible') : setInfoVisible('hidden')}>Joel Giladi</h1>
+        <h1 className="display-1" onClick={() => infoVisible === 'hidden' ? setInfoVisible('visible') : setInfoVisible('hidden')}>Joel Giladi</h1>
         <h4>Full Stack Developer</h4>
       </div>
       <h1 onClick={() => console.log("Hello")}>Joel Giladi</h1>

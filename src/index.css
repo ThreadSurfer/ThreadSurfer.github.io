@@ -12,10 +12,12 @@
   }
   #header h1 {
     text-align: center;
+    margin: 0 auto;
   }
   
   #header h4 {
     text-align: center;
+    margin: 0 auto;
     clear: left;
   }
 
@@ -248,7 +250,7 @@ code {
   background-color: rgba(232, 139, 30, 0.3);
   color: black;
   font-size: 30px;
-  min-width: 15em;
+  min-width: 10em;
   border-radius: 30px;
   text-align: center;
   overflow: hidden;
@@ -343,8 +345,6 @@ code {
 
 body > #root > div.projectPage {
   height: 100%;
-  margin: 0 auto;
-  border: 0px solid;
   display: fixed;
   overflow: scroll;
 }
