@@ -38,8 +38,8 @@
   }
 
   iframe {
-    width: 220;
-    height: 130;
+    width: 132;
+    height: 78;
     margin-top: 2em;
     padding: 10px;
     position: relative;
@@ -187,6 +187,13 @@ code {
   opacity: 0;
 }
 
+iframe {
+  padding: 10px;
+  position: relative;
+  box-shadow: 0 4px 50px 1px black;
+  border-radius: 10px;
+}
+
 .shiner {
   
   position: absolute;
@@ -259,7 +266,7 @@ code {
 #bio {
   margin: 0 auto;
   display: relative;
-  background-color: rgba(232, 139, 30, 0.3);
+  background-color: rgba(232, 139, 30, 0.2);
   color: rgba(32, 25, 29, 0.91);
   min-width: 10em;
   border-radius: 30px;
