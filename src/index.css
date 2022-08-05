@@ -26,6 +26,16 @@
     border: 1px solid green;
     min-height: 30em !important;
   }
+
+  iframe {
+    width: 220;
+    height: 130;
+    margin-top: 2em;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 4px 50px 1px black;
+    border-radius: 10px;
+  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -59,6 +69,12 @@
     display: block;
     margin-left: 3.5em !important;
   }
+
+  iframe{
+    width: 560;
+    height: 315;
+  }
+  
 }
 @media screen and (min-width: 1600px) {
   body {
@@ -337,16 +353,6 @@ body > #root > div.projectPage {
   margin: 0 auto;
   justify-content: center;
   display: block;
-}
-
-iframe{
-  width: 560;
-  height: 315;
-  margin-top: 2em;
-  padding: 10px;
-  position: relative;
-  box-shadow: 0 4px 50px 1px black;
-  border-radius: 10px;
 }
 
 .projectDescription {

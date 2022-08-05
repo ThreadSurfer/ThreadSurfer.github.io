@@ -1,9 +1,7 @@
-import {React, useState} from 'react'
+import {React} from 'react'
 import profileImage from "../img/selfie.jpg"
 
 export default function Bio() {
-
-    const [infoVisible, setInfoVisible] = useState("hidden")
 
   return (
     <div id="bio">
@@ -11,7 +9,7 @@ export default function Bio() {
     <img id="selfie" src={profileImage} alt="selfie picture of myself"></img>
     </div>
     
-    <p className="bioText" id = "personalName">Joel Giladi</p>
+    {/* <p className="bioText" id = "personalName">Joel Giladi</p> */}
     <p className="bioText">Recently graduated Software Developer with 2 years experience of school and freelance work.
     <br></br>
     <br></br> 
